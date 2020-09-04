@@ -14,8 +14,12 @@ export default class App extends Component {
     render() {
         return (
             <div id='app'>
-                <h1>Hello world!</h1>
-                <Form></Form>
+                <div className='parallax'>
+                    <h1>Hello world!</h1>
+                </div>
+                <div className="parallax2">
+                    <Form></Form>
+                </div>
             </div>
         )
     }
