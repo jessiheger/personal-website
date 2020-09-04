@@ -1,0 +1,32 @@
+html,
+body {
+    height: 100%;
+    /* overflow: hidden; */
+}
+
+.parallax {
+    background-image: url('./images/el-capitan.jpg');
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax2 {
+    background-color: lightpink;
+    height: 100%;
+    width: 100%;
+    /* z-index: 999; */
+    /* background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+/* @media only screen and (max-device-width: 1366px) {
+    .parallax {
+      background-attachment: scroll;
+    }
+  } */
